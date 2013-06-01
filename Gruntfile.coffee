@@ -6,7 +6,7 @@ module.exports = (grunt) ->
 
   grunt.initConfig
     mochaTest:
-      files: ['tests/*.js']
+      files: ['test/*.js']
 
     mochaTestConfig:
       options:
@@ -18,6 +18,7 @@ module.exports = (grunt) ->
         newcap: false
         node: true
         force: true
+        asi: true
 
       all:
         files:
@@ -27,3 +28,5 @@ module.exports = (grunt) ->
       test:
         files: ['<%= jshint.all.files.src %>', '<%= mochaTest.files %>']
         tasks: ['jshint', 'mochaTest']
+
+  grunt.registerTask 'default', grunt.config('watch.test.tasks').concat 'watch'

@@ -15,3 +15,8 @@ npm-debug.log
 
 .idea
 node_modules
+
+jasmine-1.1.0.js
+JasmineAdapter-1.1.2.js
+
+files
