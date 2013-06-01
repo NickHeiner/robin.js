@@ -1,0 +1,30 @@
+{
+  "name": "robin.js",
+  "version": "0.0.0",
+  "description": "functional pattern matching in js",
+  "main": "robin.js",
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NickHeiner/robin.js.git"
+  },
+  "keywords": [
+    "functional-programming",
+    "pattern-matching"
+  ],
+  "author": "Nick Heiner",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "a26a17e8ab5213b9b0cf51155ba5084a7dcbdd4c",
+  "bugs": {
+    "url": "https://github.com/NickHeiner/robin.js/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.4.0",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-contrib-watch": "~0.4.4"
+  }
+}
